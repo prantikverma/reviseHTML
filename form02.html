@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>radio button special</title>
+</head>
+<body>
+    <form action="">
+        <label>GENDER:</label>
+        <br>
+
+        <label>male</label>
+        <input type="radio" >
+
+        <label>female</label>
+        <input type="radio">
+
+        <label>other</label>
+        <input type="radio" >
+
+        <input type="submit">
+
+                <!--below important note h bro-->
+
+        <p>yha error h ek br select krke unselect nhi hora <br>
+        also yha key value pair m value on jayegi ....instead of selected one </p>
+        </form>
+
+                
+
+                <!--using name attribute-->
+
+        <h2>using name attribute along with radio button</h2>
+
+    <form action="">
+        <label>GENDER:</label>
+        <br>
+
+        <label>male</label>
+        <input type="radio" name="gender"  >
+
+        <label>female</label>
+        <input type="radio" name="gender" >
+
+        <label>other</label>
+        <input type="radio" name="gender" >
+
+        <br>
+
+        <input type="submit">
+
+                <!--below important note h bro-->
+
+        <p>abb select krke unselect hora h abb<br>
+            single select only hogya jo sahi h <br>
+        also yha key value pair m value gender=on  jayegi abb  </p>
+        </form>
+
+        <h2>using value attribute for removing on as value</h2>
+
+        <form action="">
+        <label>GENDER:</label>
+        <br>
+
+        <label>male</label>
+        <input type="radio" name="gender" value="male" >
+
+        <label>female</label>
+        <input type="radio" name="gender" value="female" >
+
+        <label>other</label>
+        <input type="radio" name="gender" value="other" >
+
+        <br>
+
+        <input type="submit">
+
+                <!--below important note h bro-->
+
+     <p>yha key value pair m value gender=value ..... format hoga gender= jo select kiya </p>
+        </form>
+
+        <form action="">
+        <label>GENDER:</label>
+        <br>
+
+        <label for="male">male</label>
+        <input type="radio" name="gender" value="male" id="male">
+
+        <label for="female">female</label>
+        <input type="radio" name="gender" value="female" id="female">
+
+        <label for="other">other</label>
+        <input type="radio" name="gender" value="other" id="other">
+
+        <br>
+
+        <input type="submit">
+
+                <!--below important note h bro-->
+
+     <p>yha abb mujhe srf radio button m click krne ki jrurat nhi h abb direct label or radio link hogye h </p>
+        </form>
+
+
+
+        
+     
+</body>
+</html>

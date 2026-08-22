@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form ki practise</title>
+    
+</head>
+<body>
+    <h1>UNIVERSITY REGISTRATION FORM</h1>
+    <p>Please fill out the form below to register.</p>
+
+    <hr>
+
+    <h2>PERSONAL DETAILS</h2>
+
+    <label>First name:</label>
+    <input type="text" name="firstName" placeholder="eg.ram">
+
+    <br><br>
+    
+    <label>Last name:</label>
+    <input type="text" name="lastName" placeholder="eg.chandra">
+
+    <br><br>
+
+    <label>Date of birth:</label>
+    <input type="date" name="dob">
+
+    <br><br>
+
+    <label for="gender">Gender:</label>
+    <br>
+    <input type="radio" name="gender" value="male" id="gender">
+    <label>Male</label>
+    <br>
+
+    <input type="radio" name="gender" value="female" id="gender" >
+    
+    <label>Female</label>
+    <br>
+
+    <input type="radio" name="gender" value="other" id="gender">
+    <label>Other</label>
+    <br><br>
+
+    <label>Upload your photo:</label>
+    <br>
+    <input type="file" name="photofile" required>
+
+    <hr>
+
+    <h2>CONTACT DETAILS</h2>
+
+    <label for="email">Email address</label>
+    <input type="email" id="email" name="email" placeholder="abc.example.com">
+    <br>
+
+    <label for="phone">Phone number:</label>
+    <input type="tel" id="phone" name="pnumber" placeholder="1234567890">
+    <br>
+
+    <label >Mail address</label>
+    <br>
+    <textarea
+          name="mailaddress" 
+        placeholder="eg. 123, xyz street,city, state, country" 
+        rows="10"
+         cols="30">
+
+</textarea>
+
+<hr>
+
+<h2>ACADEMIC DETAILS</h2>
+<form >
+<label for="course">SELECT COURSE:</label>
+<select name="course" id="course" >
+    <options value="CSE">CSE</options>
+    <options value="ME">ME</options>
+    <options value="CE">CE</options>
+    <options value="ECE">ECE</options>
+</select>
+</form>
+
+<br><br>
+
+<label>EXTRACURRICULAR ACTIVITIES:</label>
+<br>
+<input type="checkbox" id="sports" name="extraActivity" value="sports">
+<label for="sports">Sports</label>
+<br>
+<input type="checkbox" id="music" name="extraActivity" value="music and art">
+<label for="music">Music and art</label>
+<br>
+<input type="checkbox" id="tech" name="extraActivity" value="technology clubs">
+<label for="tech">Technology clubs</label>
+<br>
+<input type="checkbox" id="volunteer" name="volunutering" value="volunteering">
+<label for="extraAct">Volunteeering</label>
+
+<hr>
+
+<h2>CREATE YOUR ACCOUNT</h2>
+
+<label for="pass">Create a password:</label>
+<input type="password" name="password" id="pass" placeholder="enter your password">
+<br><br>
+
+<label foe="ques">security question:</label>
+<select name="question" id="ques">
+    <options>what was your frst pet?</options>
+    <options>name of your dog</options>
+</select>
+
+<br><br>
+
+<label for="ans">security answer:</label>
+<input type="text" id="ans" name="ans" >
+<br>
+<br>
+
+<input type="checkbox" id="agree">
+<label for="agree">i agree to the terms and conditions.</label>
+
+<br><br>
+
+<hr>
+
+<button type="submit">REGISTER</button>
+
+<button type="reset">CLEAR ALL</button>
